@@ -1,4 +1,4 @@
-package com.dp.base.di;
+package com.principle.dp.base.di;
 
 /**
  * <p>

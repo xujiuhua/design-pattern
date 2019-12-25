@@ -1,4 +1,4 @@
-package com.dp.base.di.external;
+package com.principle.dp.base.di.external;
 
 /**
  * <p> 依赖的传递方式 </p>

@@ -19,6 +19,16 @@
 
 ![img](doc/uml.png)
 
-依赖（dependency）、关联(association)、聚合(aggregation)、组合(composition);
+- 依赖（dependency）：类中用到了对方、类的成员属性、方法的返回类型、方法接收的参数类型、方法中使用到
 
-继承、实现
+- 继承（泛化）：依赖的特例
+
+- 实现
+
+- 关联(association)：类与类之间的联系；具有导航性；一个人对应一个身份证，一个身份证对应一个人
+
+- 聚合(aggregation)：关联关系的特例；整体和部分的关系；可分离
+
+- 组合(composition)：关联关系的特例；整体和部分的关系；不可分离
+
+
