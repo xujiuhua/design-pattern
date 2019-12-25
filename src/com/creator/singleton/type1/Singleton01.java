@@ -1,7 +1,15 @@
-package com.creator.singleton;
+package com.creator.singleton.type1;
 
 /**
- * <p> 饿汉式（静态常量） </p>
+ * <p>
+ *     饿汉式（静态常量）
+ *
+ *     Defect: 可能造成内存浪费
+ *     Advantage: 简单、避免线程同步
+ *
+ *     可用
+ *
+ * </p>
  *
  * @author jiuhua.xu
  * @version 1.0
