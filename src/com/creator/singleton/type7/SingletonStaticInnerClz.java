@@ -24,7 +24,7 @@ public class SingletonStaticInnerClz {
 
 class Singleton {
 
-    private static Singleton instance;
+    private Singleton() {}
 
     private static class SingletonInstance {
         private static final Singleton INSTANCE = new Singleton();
