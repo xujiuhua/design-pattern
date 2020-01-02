@@ -50,3 +50,10 @@
 #### 原型模式
 - 浅拷贝
 - 深拷贝：第一种重写clone方法、第二种序列号
+
+#### 建造者模式
+product,builder,concrete builder,director
+
+![img](doc/design-builder.png)
+
+
