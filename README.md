@@ -31,7 +31,7 @@
 
 - 组合(composition)：关联关系的特例；整体和部分的关系；不可分离
 
-### 创建型
+### 创建型（5种）
 
 #### 单例模式
 一共8种写法
@@ -55,5 +55,16 @@
 product,builder,concrete builder,director
 
 ![img](doc/design-builder.png)
+
+### 结构型（7种 ）
+
+#### 适配器模式
+- 类适配器
+![img](doc/structural-adapter(class).png)
+- 对象适配器
+- 接口适配器
+
+
+
 
 
