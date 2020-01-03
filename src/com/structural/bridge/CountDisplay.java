@@ -17,9 +17,9 @@ public class CountDisplay extends Display{
         super(impl);
     }
 
-    public void multiDisplay() {
+    public void multiDisplay(int cnt) {
         open();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < cnt; i++) {
             print();
         }
         close();

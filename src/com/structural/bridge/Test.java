@@ -17,7 +17,7 @@ public class Test {
         d1.display();
         d2.display();
         d3.display();
-        d3.multiDisplay();
+        d3.multiDisplay(4);
 
     }
 }
