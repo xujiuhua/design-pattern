@@ -58,14 +58,14 @@ product,builder,concrete builder,director
 
 ### 结构型（7种 ）
 
-#### 适配器模式
+#### Adapter (适配器模式)
 - 类适配器（使用继承的适配器）
 ![img](doc/structural-adapter(class).png)
 - 对象适配器（使用委托的适配器）
 ![img](doc/structural-adapter(delegate).png)
 - 接口适配器
 
-#### Bridge(桥接模式)
+#### Bridge (桥接模式)
 
 1、类的功能层次接口: 父类具有基本功能、在子类中增加新的功能
 2、类的实现层次结构：父类通过声明抽象方法来定义接口（API）、子类通过实现具体方法来实现接口（API）
@@ -73,6 +73,16 @@ product,builder,concrete builder,director
 分离两种类的层次结构，有利于独立地对他们进行扩展。
 
 ![img](doc/structural-bridge.png)
+
+#### Decorator (装饰者模式)
+
+装饰边框与被装饰物具有了相同的方法。
+
+#### Composite (组合模式)
+
+能够使容器与内容具有一致性，创造出递归结构的模式
+
+
 
 
 
