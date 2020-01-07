@@ -1,4 +1,4 @@
-package com.structural.proxy;
+package com.structural.proxy.statics;
 
 /**
  * <p></p>
@@ -9,8 +9,7 @@ package com.structural.proxy;
  */
 public class Test {
     public static void main(String[] args) {
-        RealStar star = new RealStar();
-        Proxy proxy = new Proxy(star);
+        ProxyManager proxy = new ProxyManager();
         proxy.sing();
     }
 }

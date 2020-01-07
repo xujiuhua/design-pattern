@@ -1,4 +1,4 @@
-package com.structural.proxy;
+package com.structural.proxy.statics;
 
 /**
  * <p></p>
