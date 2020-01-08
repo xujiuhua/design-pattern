@@ -151,3 +151,11 @@ Subject: 抽象目标
 ConcreteSubject: 当具体主题的内部状态发生改变时，通知所有注册过的观察者对象
 Observer: 
 ConcreteObserver: 存在多个
+
+#### State (状态模式)
+
+> 用类表示状态；把复杂的“判断逻辑”提取到不同的状态对象中，允许状态对象在其内部状态发生改变时改变其行为
+
+State: 状态
+ConcreteState: 具体状态
+Context: 前后关系、上下文
