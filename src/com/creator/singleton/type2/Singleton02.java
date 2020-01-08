@@ -21,7 +21,7 @@ public class Singleton02 {
 
     }
 
-    private static Singleton02 instance;
+    private final static Singleton02 instance;
 
     static {
         instance = new Singleton02();
