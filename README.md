@@ -176,3 +176,8 @@ Mediator: 中介者, 与Colleague通信和做出决定
 ConcreteMediator: 具体的中介者
 Colleague: 负责与Mediator通信
 ConcreteColleague: 
+
+#### Iterator (迭代器模式)
+
+> 一个一个遍历
+
