@@ -159,3 +159,11 @@ ConcreteObserver: 存在多个
 State: 状态
 ConcreteState: 具体状态
 Context: 前后关系、上下文
+
+#### Memento
+
+> 保存对象 (备忘录模式)
+
+Originator: 生成者
+Memento: 备忘录
+Caretaker: 负责人
