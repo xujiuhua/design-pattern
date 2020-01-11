@@ -19,6 +19,10 @@ public class Memento {
         this.fruits = new ArrayList<>();
     }
 
+    public int getMoney() {
+        return money;
+    }
+
     void addFruit(String fruit) {
         fruits.add(fruit);
     }

@@ -167,3 +167,12 @@ Context: 前后关系、上下文
 Originator: 生成者
 Memento: 备忘录
 Caretaker: 负责人
+
+#### Mediator (中介者模式)
+
+> 只有一个仲裁者，组员向仲裁者报告；组员向仲裁者报告，仲裁者向组员下达指示
+
+Mediator: 中介者, 与Colleague通信和做出决定
+ConcreteMediator: 具体的中介者
+Colleague: 负责与Mediator通信
+ConcreteColleague: 

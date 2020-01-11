@@ -13,7 +13,7 @@ public class Test {
         Gamer gamer = new Gamer(100);
         Memento memento = gamer.createMemento();
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 10; i++) {
 
             System.out.println(i + "-->当前状态：" + gamer);
 
@@ -21,10 +21,10 @@ public class Test {
 
             System.out.println("所持金钱为" + gamer.getMoney() + "元");
 
-            if (gamer.getMoney() > memento.money) {
+            if (gamer.getMoney() > memento.getMoney()) {
                 System.out.println("金钱数增加，保存游戏状态");
                 memento = gamer.createMemento();
-            } else if (gamer.getMoney() < memento.money / 2) {
+            } else if (gamer.getMoney() < memento.getMoney() / 2) {
                 System.out.println("金钱数减少，恢复以前状态");
                 gamer.restoreMemento(memento);
             }
