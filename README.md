@@ -132,8 +132,6 @@ Strategy:
 ConcreteStrategy: 
 Context: 负责使用Strategy的角色
 
-#### Command (命令模式)
-
 #### Chain of Responsibility (责任链模式)
 
 > 推卸责任，将多个对象组成一条职责链，然后在职责链上找出谁该执行
@@ -203,3 +201,9 @@ Receiver: 接收者
 Invoker: 发起者
 
 ![img](asserts/images/command.png)
+
+#### Interpreter (解释器模式)
+
+> 语法规则也是类；
+
+
