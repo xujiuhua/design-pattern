@@ -18,7 +18,7 @@
 
 ### UML
 
-![img](doc/uml.png)
+![img](asserts/images/uml.png)
 
 - 依赖（dependency）：类中用到了对方、类的成员属性、方法的返回类型、方法接收的参数类型、方法中使用到
 
@@ -55,7 +55,7 @@
 #### 建造者模式
 product,builder,concrete builder,director
 
-![img](doc/design-builder.png)
+![img](asserts/images/design-builder.png)
 
 ### 结构型（7种 ）
 
@@ -64,9 +64,9 @@ product,builder,concrete builder,director
 > 将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作
 
 - 类适配器（使用继承的适配器）
-![img](doc/structural-adapter(class).png)
+![img](asserts/images/structural-adapter(class).png)
 - 对象适配器（使用委托的适配器）
-![img](doc/structural-adapter(delegate).png)
+![img](asserts/images/structural-adapter(delegate).png)
 - 接口适配器
 
 #### Bridge (桥接模式)
@@ -78,7 +78,7 @@ product,builder,concrete builder,director
 
 分离两种类的层次结构，有利于独立地对他们进行扩展。
 
-![img](doc/structural-bridge.png)
+![img](asserts/images/structural-bridge.png)
 
 #### Decorator (装饰者模式)
 
@@ -108,7 +108,7 @@ Proxy:
 - 静态代理: 真实主题与代理主题一一对应，增加真实主题也要增加代理。设计代理以前真实主题必须事先存在，不太灵活
 - 动态代理: TODO
 
-![img](doc/structural-proxy.png)
+![img](asserts/images/structural-proxy.png)
 
 #### Flyweight (享元模式)
 
@@ -191,3 +191,15 @@ ConcreteColleague:
 使用场景：
 - 对象结构比较稳定，但经常需要在此对象结构上定义新的操作。
 - 需要对一个对象结构中的对象进行很多不同的并且不相关的操作，而需要避免这些操作“污染”这些对象的类，也不希望在增加新操作时修改这些类。
+
+
+#### Command (命令模式)
+
+> 命令也是类；将一个请求封装成一个对象，从而使您可以用不同的请求对客户进行参数化
+
+Command: 
+ConcreteCommand:
+Receiver: 接收者
+Invoker: 发起者
+
+![img](asserts/images/command.png)
