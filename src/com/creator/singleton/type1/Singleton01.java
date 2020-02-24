@@ -17,7 +17,9 @@ package com.creator.singleton.type1;
  */
 public class Singleton01 {
 
-    // 1. 私有化构造器
+    /**
+     * 1. 私有化构造器
+     */
     private Singleton01(){}
 
     // 2. 静态常量
